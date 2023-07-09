@@ -2,6 +2,7 @@ nav {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    padding: 0 200px;
 }
 
 nav>ul {
@@ -42,4 +43,19 @@ body {
     font-weight: 700;
     word-wrap: break-word;
     padding: 18px 35px 19px 36px;
+}
+
+/* Styling header */
+.header{
+    background-color: #FFF8F3;
+}
+
+.banner{
+    display: flex;
+    padding: 30px 30px 30px 150px;
+    align-items: center;
+}
+
+.banner .profile image{
+    width: 500px;
 }

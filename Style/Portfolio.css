@@ -118,7 +118,6 @@ main {
     text-align: center;
     color: #757575;
     font-size: 18px;
-
     word-wrap: break-word;
     /* max-width: 500px; */
 }
@@ -145,4 +144,16 @@ main {
     font-weight: 700;
     line-height: 30px;
     word-wrap: break-word;
+}
+
+#what-i-do-description{
+    padding: 30px 150px;
+}
+
+.skill-container{
+    display:flex;
+}
+
+.skill{
+    padding:30px;
 }

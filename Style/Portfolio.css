@@ -99,6 +99,10 @@ body {
     padding: 209px 157px 221px 156px;
 }
 
+main {
+    max-width: 1140;
+}
+
 .section-title {
     text-align: center;
     color: #181818;
@@ -117,5 +121,28 @@ body {
 
     word-wrap: break-word;
     /* max-width: 500px; */
+}
+.about-section-container{
+    display:flex;
+    justify-content: space-around;
+}
 
+.about-info {
+    color: #757575;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+    word-wrap: break-word;
+}
+
+.about-info{
+    text-align: center;
+}
+
+.info-title {
+    color: #474747;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 30px;
+    word-wrap: break-word;
 }
